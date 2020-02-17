@@ -4,7 +4,7 @@ public class Fluxo {
 		System.out.println("Ini do main");
 		try {
 			metodo1();
-		}catch(ArithmeticException | NullPointerException e) {
+		}catch(Exception e) {
 			System.out.println("Exception : " + e.getMessage());
 			e.printStackTrace();
 		}
